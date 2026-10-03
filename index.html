@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integración Continua | Jean Carlos Cabral Paniagua</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            Pagina <span>.</span> Web
+        </div>
+
+        <nav>
+            <a href="#proceso">Proceso</a>
+            <a href="#tecnologias">Tecnologías</a>
+            <a href="#automatizacion">Automatización</a>
+        </nav>
+
+    </header>
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <div class="student">
+                Jean Carlos Cabral Paniagua · 2025-1380
+            </div>
+
+            <h1>
+                GitHub Actions
+                <br>
+                + <span>Surge.sh</span>
+            </h1>
+
+            <p>
+                Esta página web forma parte de una práctica de integración
+                continua. El objetivo es crear una página HTML, subirla a
+                GitHub y configurar GitHub Actions para realizar su
+                despliegue automáticamente utilizando Surge.sh.
+            </p>
+
+            <a href="#proceso" class="button">
+                Ver el proceso
+            </a>
+
+        </div>
+
+    </section>
+
+    <section id="proceso">
+
+        <div class="section-title">
+
+            <h2>¿Cómo funciona?</h2>
+
+            <p>
+                El proceso conecta el desarrollo local con el despliegue automático.
+            </p>
+
+        </div>
+
+
+        <div class="workflow">
+
+            <div class="step">
+
+                <div class="number">1</div>
+
+                <h3>Desarrollo</h3>
+
+                <p>
+                    Se crea el archivo index.html y se trabaja
+                    desde un repositorio local de Git.
+                </p>
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="number">2</div>
+
+                <h3>GitHub</h3>
+
+                <p>
+                    El proyecto se sube a un repositorio de GitHub
+                    mediante un push.
+                </p>
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="number">3</div>
+
+                <h3>GitHub Actions</h3>
+
+                <p>
+                    El workflow detecta el cambio y ejecuta
+                    automáticamente las instrucciones configuradas.
+                </p>
+
+            </div>
+
+
+            <div class="step">
+
+                <div class="number">4</div>
+
+                <h3>Surge.sh</h3>
+
+                <p>
+                    Finalmente, los archivos de la página son desplegados
+                    automáticamente en Surge.sh.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="info" id="tecnologias">
+
+        <div class="section-title">
+
+            <h2>Tecnologías utilizadas</h2>
+
+            <p>
+                Herramientas utilizadas durante la práctica.
+            </p>
+
+        </div>
+
+
+        <div class="info-container">
+
+            <div class="info-card">
+
+                <h3>GitHub Actions</h3>
+
+                <p>
+                    Servicio de automatización integrado en GitHub que
+                    permite ejecutar procesos automáticamente cuando
+                    ocurren eventos en el repositorio, como realizar
+                    un push a la rama principal.
+                </p>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <h3>Surge.sh</h3>
+
+                <p>
+                    Plataforma utilizada para publicar páginas web
+                    estáticas de manera sencilla. En esta práctica
+                    se utiliza como destino final del despliegue.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="code-section" id="automatizacion">
+
+        <div class="section-title">
+
+            <h2>Despliegue automático</h2>
+
+            <p>
+                El objetivo principal es reducir el trabajo manual
+                durante la publicación de la página.
+            </p>
+
+        </div>
+
+
+        <div class="code-box">
+
+            git push origin main
+
+            <br><br>
+
+            ↓
+
+            <br><br>
+
+            GitHub Actions ejecuta el workflow
+
+            <br><br>
+
+            ↓
+
+            <br><br>
+
+            Surge.sh realiza el despliegue
+
+            <br><br>
+
+            ↓
+
+            <br><br>
+
+            Página web actualizada
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="footer-name">
+            Jean Carlos Cabral Paniagua · 2025-1380
+        </div>
+
+        <p>
+            Práctica de Integración Continua · GitHub Actions + Surge.sh · 2026
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
