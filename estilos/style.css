@@ -186,29 +186,6 @@
      color: #64748b;
  }
 
- .code-section {
-     background: #111827;
-     color: white;
-     text-align: center;
- }
-
- .code-section .section-title p {
-     color: #9ca3af;
- }
-
- .code-box {
-     max-width: 700px;
-     margin: auto;
-     background: #020617;
-     border: 1px solid #374151;
-     border-radius: 10px;
-     padding: 25px;
-     text-align: left;
-     font-family: Consolas, monospace;
-     color: #93c5fd;
-     overflow-x: auto;
- }
-
  footer {
      background: #020617;
      color: #64748b;
